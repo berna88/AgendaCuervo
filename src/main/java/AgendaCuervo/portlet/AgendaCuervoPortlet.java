@@ -116,6 +116,7 @@ public class AgendaCuervoPortlet extends MVCPortlet {
 							if(user.isActive()) {
 								if(!user.isDefaultUser()) {
 									System.out.println(user.getFullName());
+									System.out.println(user.getExpandoBridge().getAttribute(""));
 								}
 							}
 							//UserLocalServiceUtil.addUserGroupUser(UserGroupLocalServiceUtil.getUserGroup(companyId, groupName).getUserGroupId(), user.getUserId());
