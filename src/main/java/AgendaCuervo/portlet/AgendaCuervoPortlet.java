@@ -50,6 +50,7 @@ import org.osgi.service.component.annotations.Component;
 	service = Portlet.class
 )
 public class AgendaCuervoPortlet extends MVCPortlet {
+	
 	private static final Log log = LogFactoryUtil.getLog(AgendaCuervoPortlet.class);
 	
 	@Override
